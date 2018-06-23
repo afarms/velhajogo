@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset ="utf-8"/>
+		<title>Jogo da velha</title>
+		<link rel="stylesheet" href="estilos.css" type="text/css">
+		<script src="jscript.js"></script>
+	</head>
+	<body>
+		<div class="main" align="center">
+			<div id="caixa1"><p id='titulo' align="center">Jogo da velha</p></div>
+			<div id="caixa2">
+				<div id ="placar2">
+					<p align="center">Vitória do PC: <input class="asd" type="text" id="placar-computador" disabled="disabled" value="0" /></p>
+					<p align="center">Vitória do Jogador: <input class="asd" id="placar-jogador" type="text" disabled="disabled" value="0" /></p>
+					<p align="center"><input id="resetar" type="button" value='RESETAR' onclick="resetar()" /></p>
+					<p align="center"><input id="resetar" type="button" value='LIMPAR TABUEIRO' onclick="limpar()" /></p>
+				</div>
+
+			</div>
+			<div id="caixa3">
+				<!--1 LINHA DO JOGO-->
+				<div class="linhas" id='x0'></div>
+				<div class="linhas" id='x1'></div>
+				<div class="linhas" id='x2'></div>
+    			<!--2 LINHA DO JOGO-->
+    			<div class="linhas1" id="x3"></div>
+				<div class="linhas1" id="x4"></div>
+				<div class="linhas1" id="x5"></div>
+				<!--3 LINHA DO JOGO-->
+				<div class="linhas2" id="x6"></div>
+				<div class="linhas2" id="x7"></div>
+				<div class="linhas2" id="x8"></div>
+			</div>
+			<div id="rodape"></div>	
+		</div>				
+	</body>
+</html>

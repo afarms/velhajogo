@@ -1,0 +1,95 @@
+html{ width:100%; 
+}
+body{
+	width: 100%;
+}
+.main{
+	position: absolute;
+	top: 0px;
+	width: 1349px;
+	height:640px;
+
+}
+#titulo{
+	margin-top: 10px;
+	font-size: 50px;
+	font-family: "Goudy Stout";
+	/*Para colocar o gradiente no título foi consultado o site: http://www.maujor.com/tutorial/propriedades-css-para-estilizacao-de-fontes.php*/
+	background: -webkit-linear-gradient(blue, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#caixa1{
+	position: absolute;
+	left:0px;
+	top:0px;
+	width: 100%;
+	height:90px;
+	background-color: #88a2cc;	
+}
+#caixa2{
+	position:absolute;
+	top:90px;
+	left: 0;
+
+	width: 450px;
+	height: 550px;
+	background-color: #15243d;
+}
+#caixa3{
+	position: absolute;
+	top:90px;
+	left:450px;
+
+	width: 899px;
+	height: 550px;
+	background-color: blue;
+}
+#rodape{ clear: both; }
+
+/*===============Editando a caixa do jogo da velha============*/
+.linhas{
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-top:10%;
+  margin-right: 1px;
+  background-color: white;
+}
+#x0{
+/*coloquei a margem em apenas na 1 pois ela empura as outras*/
+margin-left:300px;
+}
+.linhas1{
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-top: 1px;
+  margin-right: 1px;
+  background-color: white;
+}
+#x3{
+  margin-left:300px;
+}
+.linhas2{
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-top: 1px;
+  margin-right: 1px;
+  background-color: white;
+  
+}
+#x6{
+  margin-left:300px;
+}
+img{
+	max-width:100%;
+	height:100%;
+	/*width:100%;*/
+}
+
+
